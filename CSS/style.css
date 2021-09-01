@@ -14,14 +14,15 @@
 }*/
 
 body {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  background-image: url("../images/bg-pattern-top-desktop.svg"),
+    url("../images/bg-pattern-bottom-desktop.svg");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+  background-size: 45%, 70%;
 }
 
 .content {
+  margin: 100px auto;
   width: 1140px;
   height: 800px;
   display: grid;
@@ -78,12 +79,12 @@ body {
 .review {
   width: 445px;
   height: 60px;
-  background-color: hsl(300, 43%, 22%, 6%);
+  background-color: hsl(300, 24%, 96%);
   border-radius: 7px;
   display: flex;
   flex-direction: row;
   margin: 10px 5px 20px 20px;
-  color: hsl(300, 43%, 22%);
+  color: hsl(300, 37%, 32%);
   font-weight: 700;
 }
 
@@ -100,8 +101,8 @@ body {
 }
 
 .review p {
-  margin-top: 23px;
-  font-size: 15px;
+  margin-top: 25px;
+  font-size: 13px;
 }
 
 /* CARDS */
