@@ -4,9 +4,16 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
 }
 
 /* WIREFRAME */
 .frame {
   border: 1px solid red;
+}
+
+body {
+  width: 1440px;
+  height: 800px;
 }
