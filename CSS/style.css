@@ -8,10 +8,10 @@
   font-size: 15px;
 }
 
-/* WIREFRAME */
+/* WIREFRAME 
 .frame {
   border: 1px solid red;
-}
+}*/
 
 body {
   position: absolute;
@@ -49,11 +49,14 @@ body {
   font-size: 48px;
   font-weight: 700;
   color: hsl(300, 43%, 22%);
+  line-height: 50px;
 }
 
 .light {
   font-weight: 500;
-  font-size: 14px;
+  color: hsl(303, 10%, 53%);
+  line-height: 27px;
+  margin-top: 10px;
 }
 
 /* REVIEWS */
@@ -75,7 +78,7 @@ body {
 .review {
   width: 445px;
   height: 60px;
-  background-color: hsl(300, 43%, 22%, 10%);
+  background-color: hsl(300, 43%, 22%, 6%);
   border-radius: 7px;
   display: flex;
   flex-direction: row;
@@ -93,13 +96,15 @@ body {
 }
 
 .stars {
-  margin: 20px 35px;
+  margin: 22px 30px;
 }
 
 .review p {
-  margin-top: 20px;
+  margin-top: 23px;
+  font-size: 15px;
 }
 
+/* CARDS */
 .card {
   width: 350px;
   height: 235px;
@@ -107,9 +112,43 @@ body {
   border-radius: 7px;
 }
 
+.card p {
+  font-size: 13px;
+}
+
 .buyer {
   display: flex;
   flex-direction: row;
+  margin: 30px 0 0 30px;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.info {
+  margin-left: 20px;
+  line-height: 20px;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.name,
+.para {
+  color: white;
+}
+
+.verified {
+  color: hsl(333, 80%, 67%);
+}
+
+.para {
+  margin: 30px 0 0 30px;
+  line-height: 21px;
 }
 
 .irene {
@@ -118,8 +157,4 @@ body {
 
 .anne {
   margin-top: 30px;
-}
-
-.card img {
-  border-radius: 50%;
 }
